@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.project.berthaproject.AddDataActivity">
+
+
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add location" />
+
+
+    <!--EditText
+        android:id="@+id/add_data_pm25_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Pm25"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/add_data_pm10_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Pm10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/add_data_co2_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Co2"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/add_data_o3_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="O3"
+        android:inputType="numberDecimal" />
+
+
+    <EditText
+        android:id="@+id/add_data_temperature_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Temperature"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/add_data_humidity_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Humidity"
+        android:inputType="textCapWords" />
+
+
+    <EditText
+        android:id="@+id/add_data_pressure_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Pressure"
+        android:inputType="textCapWords" /-->
+
+    <EditText
+        android:id="@+id/add_data_latitude_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Latitude"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/add_data_longitude_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Longitude"
+        android:inputType="textCapWords" />
+
+
+    <TextView
+        android:id="@+id/main_position_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addData2"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/add_data_message_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
